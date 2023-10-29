@@ -2,7 +2,7 @@
 
 namespace ReduxSimple.Uwp.Samples.TodoList
 {
-    public class TodoItemEntityState : EntityState<int, TodoItem>
+    public record TodoItemEntityState : EntityState<int, TodoItem>
     {
     }
 

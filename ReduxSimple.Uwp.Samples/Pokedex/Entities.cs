@@ -2,7 +2,7 @@
 
 namespace ReduxSimple.Uwp.Samples.Pokedex
 {
-    public class PokedexEntityState : EntityState<int, PokemonGeneralInfo>
+    public record PokedexEntityState : EntityState<int, PokemonGeneralInfo>
     {
     }
 

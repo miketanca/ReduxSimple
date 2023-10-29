@@ -19,6 +19,7 @@
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <PackageCertificateKeyFile>ReduxSimple.Samples_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>E18C7DEEF6855340B97E61DCC947C5D2A455EB02</PackageCertificateThumbprint>
+		<LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -318,13 +319,13 @@
       <Project>{e47299a5-16cb-4984-83d6-f4578606a844}</Project>
       <Name>ReduxSimple.Uwp.DevTools</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ReduxSimple.Uwp.RouterStore\ReduxSimple.Uwp.RouterStore.csproj">
-      <Project>{1a224f30-719c-411c-9876-5c9bd99ea3c6}</Project>
-      <Name>ReduxSimple.Uwp.RouterStore</Name>
+    <ProjectReference Include="..\ReduxSimple.Uwp.RouterStore2\ReduxSimple.Uwp.RouterStore2.csproj">
+      <Project>{c5570f48-d870-4448-b1ab-57813afbef21}</Project>
+      <Name>ReduxSimple.Uwp.RouterStore2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ReduxSimple.Uwp\ReduxSimple.Uwp.csproj">
-      <Project>{981e7664-7703-4f24-93ec-073a913643e0}</Project>
-      <Name>ReduxSimple.Uwp</Name>
+    <ProjectReference Include="..\ReduxSimple.Uwp2\ReduxSimple.Uwp2.csproj">
+      <Project>{99a5b839-4f82-491e-a507-b5b60439f1a9}</Project>
+      <Name>ReduxSimple.Uwp2</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReduxSimple\ReduxSimple.csproj">
       <Project>{bd02f8db-a1e4-409c-9d69-3dfb2e84e786}</Project>
